@@ -1,0 +1,39 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;}
+
+a:visited{
+    color: rgb(0, 170, 255); 
+}
+
+.head {
+    text-align: center;
+    font-size: 250%;
+    color: rgb(0, 170, 255);
+    text-shadow: rgb(0, 170, 255) 1px 0 30px;
+}
+
+.products {
+    font-size: 200%;
+    /* font-family: 'Courier New', Courier, monospace; */
+    margin: 1rem 0 1rem 0;
+}
+
+.product {
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.product:hover {
+    background-color: rgb(240, 216, 184);
+}
+
+.article {
+    background-color: white;
+    font-size: 150%;
+    line-height: 170%;
+    border-radius: 1rem;
+    padding: 2rem;}
+
+.section {
+    margin-bottom: 1rem;
+}
